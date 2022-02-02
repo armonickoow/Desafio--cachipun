@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#resultado{
+    text-align: center;
+}
+
+#resultado img{
+    width: 40%;
+}
+
+#texto-inicio{
+    font-size: 26px;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.container{
+    max-width: 420px;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 35px;
+    padding: 20px;
+}
+
+
+
+#grupo-botones{
+    display: flex;
+    width: 100%;
+}
+
+#grupo-botones > button > img{
+
+    width: 100%;
+
+
+
+} 
